@@ -96,23 +96,23 @@ init -1 python hide:
     ## are the size of the left/right and top/bottom borders,
     ## respectively.
 
-    # style.window.background = Frame("frame.png", 12, 12)
+    style.window.background = Frame("LLframe.png", 12, 12)
 
     ## Margin is space surrounding the window, where the background
     ## is not drawn.
 
-    # style.window.left_margin = 6
-    # style.window.right_margin = 6
-    # style.window.top_margin = 6
-    # style.window.bottom_margin = 6
+    style.window.left_margin = 0
+    style.window.right_margin = 0
+    style.window.top_margin = 10
+    style.window.bottom_margin = 10
 
     ## Padding is space inside the window, where the background is
     ## drawn.
 
-    # style.window.left_padding = 6
-    # style.window.right_padding = 6
-    # style.window.top_padding = 6
-    # style.window.bottom_padding = 6
+    style.window.left_padding = 40
+    style.window.right_padding = 40
+    style.window.top_padding = 10
+    style.window.bottom_padding = 10
 
     ## This is the minimum height of the window, including the margins
     ## and padding.
@@ -145,11 +145,11 @@ init -1 python hide:
 
     ## The file containing the default font.
 
-    # style.default.font = "DejaVuSans.ttf"
+    style.default.font = "fonts/MotoyaLMaru.ttf"
 
     ## The default size of text.
 
-    # style.default.size = 22
+    style.default.size = 22
 
     ## Note that these only change the size of some of the text. Other
     ## buttons have their own styles.

@@ -2,6 +2,7 @@
 
 # DECLARE BACKGROUNDS
 image bg classroom = "classroom.png"
+
 image bg courtyard = "courtyard.png"
 image bg darkroom = "darkroom.png"
 image bg niceboat = "niceboat.jpg"
